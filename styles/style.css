@@ -4,10 +4,13 @@
     margin: 0;
 }
 :root{
-    --primary-color: rgb(241, 92, 122);
+    --primary-color: rgb(252, 104, 134);
+    --button-color:(90deg, #FF42A5 0%, #FF42A5 100%)
 }
 nav{
+    /* max width set korlam bole bg color set korlam */
     background-color: antiquewhite;
+   
 }
 .nav-container{
     display: flex;
@@ -32,6 +35,7 @@ nav{
     
 }
 .nav-info-container{
+  
     width: 50%;
     display: flex;
     margin-left: 30px;
@@ -53,4 +57,76 @@ nav{
 .logo-icon{
     background-color: rgb(224, 231, 238);
     padding: 10px;
+}
+
+/* banner section starts here */
+.banner-container{
+  
+   
+    
+    display: flex;
+    max-width: 1400px;
+    justify-content: space-between;
+    padding-left: 12rem;
+  
+}
+
+.banner-info{
+    margin-top: 10rem;
+}
+
+.banner-para-1{
+font-size: 2rem;
+font-weight: 700;
+}
+
+.banner-title{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+
+}
+
+.banner-logo-para{
+    width: 187px;
+    height: 22.615px;
+    flex-shrink: 0;
+}
+
+
+
+.button{
+    display: flex;
+    gap: 13px;
+    margin-top: 3rem;
+   
+    /* height: 2rem; */
+    /* padding: 4%; */
+}
+
+.btn-sing-in{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    width: 6.5rem;
+    height: 2.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.Go-Rogue{
+    border: none;
+    border-radius: 48px;
+background: #4EC5F7;
+    width: 6.5rem; 
+    height: 2.5rem; 
+    font-size: 1rem;
+}
+
+.banner-img{
+   margin-left: 7rem;
+    height: 90%;
+    width: 90%;
 }

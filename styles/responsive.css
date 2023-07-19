@@ -10,6 +10,33 @@
          padding-left: 30px;
     } 
     .logo-icon-a-b{
-        padding-left: 70px;   
+        padding-left: 70px;
+         
     }
+ /* <!-- banner section starts here -->  */
+    .banner-container{
+  
+   flex-direction: column-reverse;
+   padding-left: 0;
+   margin-left: 0;
+   align-items: center;
+   /* margin-top: 0;  */
+    
+        /* display: flex;
+        max-width: 1400px;
+        justify-content: space-between;
+        padding-left: 12rem; */
+      
+    }
+    .banner-info{
+        margin-top: 20px;
+    }
+
+    .banner-img{
+        margin-left: 3px;
+
+        /* margin-left: 7rem;
+         height: 90%;
+         width: 90%; */
+     }
 }
