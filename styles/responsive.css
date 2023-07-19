@@ -1,0 +1,15 @@
+@media screen and (max-width:576px){
+    .nav-container{
+        flex-direction: column;
+         width: 100%;
+    }
+    
+    .nav-info-container{
+        flex-direction: column;
+         max-width:576px ;
+         padding-left: 30px;
+    } 
+    .logo-icon-a-b{
+        padding-left: 70px;   
+    }
+}
