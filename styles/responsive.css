@@ -39,4 +39,11 @@
          height: 90%;
          width: 90%; */
      }
+
+      /* <!-- banner section starts here -->  */
+
+      .we-r-gamer-container{
+       flex-direction: column;
+        
+    }
 }
