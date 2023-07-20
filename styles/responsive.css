@@ -46,4 +46,68 @@
        flex-direction: column;
         
     }
+    .btn-sing-in-know-more{
+        
+        margin-top: 1rem;
+        margin-left: 0rem;
+        
+    }
+
+     /* <!--play-instantly section starts here -->  */
+
+    .play-instantly-container{
+        flex-direction: column;
+      }
+
+      .play-instantly-info{
+   
+        width: 100%;
+        margin: 10px
+    
+    }
+      .play-instantly-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+      }
+
+      .play-instantly-para{
+        text-align: center;
+        /* align-items: end; */
+        margin: 10px;
+        
+      }
+
+      .play-instantly-img-container{
+    
+        
+        width: 100%;
+        padding: 6px 10px ;
+        
+      
+    }
+
+.play-instantly-img-1{
+    width: 70%;
+    height: 56%;
+    
+   
+    align-items: center;
+    /* padding-right: 9%; */
+    margin-left: 10%;
+    margin-right: 32px;
+    
+}
+
+.play-instantly-img-2{
+    position:absolute;
+    width: 38%;
+    height: 33%;
+    /* margin-right: 14%; */
+    z-index: 3;
+    margin-left: -30rem;
+    margin-top: 30%; 
+}
+
+
 }

@@ -131,7 +131,7 @@ background: #4EC5F7;
     width: 90%;
 }
 
-
+ /* we r gamer section starts here! */
 .we-r-gamer-container{
     display: flex;
     
@@ -197,6 +197,110 @@ background: #4EC5F7;
     font-size: 20px;
     color: #534C64;
 font-family: Work Sans;
-    /* margin-top: 1.5rem; */
+     margin-top: 1.5rem; 
+}
+  /* we r gamer section end here!  */
+
+  /*Online-games Funny Videos section starts here! */
+
+  /* .Online-games-title{
+    text-align: center;
+  }
+
+  .online-games-para{
+    text-align: center;
+  }
+
+   .online-games-img-container{
+     display: flex; 
+   
+
 }
 
+  .online-games-img-container img {
+    width: 150px;
+    height: 90%;
+  }
+
+  .online-games-img-img-1{
+    margin-left: 1rem; 
+  }
+
+  .online-games-img-para{
+ align-items: end;
+  }  */
+
+  /* Online-games Funny Videos section end here!  */
+
+/* Play Instantly starts here */
+
+
+  .play-instantly-container{
+    display: flex;
+  }
+  .play-instantly-info{
+   
+    width: 36%;
+    margin-top: 12rem;
+    margin-right: 4rem;
+
+}
+  .play-instantly-title{
+text-align: end;
+font-size: 40px;
+font-weight: 800;
+  }
+
+  .play-instantly-title span{
+    background: linear-gradient(180deg, #F948B2 100%, #8758F1 10%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+  }
+
+  .play-instantly-para{
+    text-align: end;
+    align-items: end;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+  }
+
+
+.play-instantly-img-container{
+    
+        display: block;
+        width: 52%;
+        overflow: hidden;
+    }
+
+.play-instantly-img-1{
+    width: 81%;
+    height: 76%;
+    margin-left: 11rem;
+    margin-top: 0rem;
+}
+
+.play-instantly-img-2{
+    position: absolute;
+    width: 18%;
+    height: 43%;
+    margin-right: 1rem;
+    z-index: 3;
+    margin-left: 2rem;
+    margin-top: -13rem;
+}
+
+
+
+
+
+
+
+
+  /* Play Instantly end here */
