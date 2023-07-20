@@ -203,32 +203,60 @@ font-family: Work Sans;
 
   /*Online-games Funny Videos section starts here! */
 
-  /* .Online-games-title{
-    text-align: center;
+  .online-games-container{
+    /* min-width: 1400px;
+    margin: 0 auto; */
+    width: 93%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-left: 3rem;
+    margin-right: 5rem;
   }
 
-  .online-games-para{
-    text-align: center;
+  .online-games-title{
+text-align: center;
+color: #0B0223;
+font-weight: 700;
+font-size: 3rem;
   }
 
-   .online-games-img-container{
-     display: flex; 
+  .online-games-title-2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
    
+  }
+  .online-games-para{
+    
+    margin-top: 10px;
+    margin-bottom: 17px;
+    color: #534C64;
+text-align: center;
 
-}
+font-size: 18px;
 
-  .online-games-img-container img {
-    width: 150px;
-    height: 90%;
+font-weight: 400;
+
   }
 
-  .online-games-img-img-1{
-    margin-left: 1rem; 
+
+
+  .online-games-img-container{
+margin: 10px 10px;
   }
 
-  .online-games-img-para{
- align-items: end;
-  }  */
+  .online-games-para-2{
+    color: #534C64;
+    font-weight: 500;
+    text-align: left;
+  }
+
 
   /* Online-games Funny Videos section end here!  */
 
